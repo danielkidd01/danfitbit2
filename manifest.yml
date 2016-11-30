@@ -1,0 +1,9 @@
+---
+applications:
+- name: FitbitApp
+  memory: 64MB
+  instances: 1
+  host: FitbitApp
+  path: .
+  buildpack: https://github.com/dmikusa-pivotal/cf-php-build-pack.git
+
